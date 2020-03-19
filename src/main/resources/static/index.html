@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>WebAPI and Jquery</title>
+<link
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    rel="stylesheet">
+    <link href="style.css" rel="stylesheet" >
+<script
+    src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <style>
+    body {
+    background-color: aqua;
+    margin: auto;
+    text-align: center;
+}
+
+.jumbotron {
+    width: 50%;
+    max-width: 50%;
+    background-color: lightblue;
+    margin: auto;
+}
+
+.form {
+    margin: auto;
+    text-align: center;
+}
+    </style>
+</head>
+
+<body>
+    <h1>RESTful WebAPI and JQuery Example</h1>
+
+    <div class="jumbotron">
+    <div class="form">
+    <p><b>Addition Machine</b></p>
+        <Label for="x" >Enter x:</Label>
+        <input type="text" id="x" value="">
+        <br>
+        <label for="y" >Enter y:</label>
+        <input type="text" id="y" value="">
+        <br>
+        <button class="btn btn-primary">Add</button>
+        <hr>
+        <h3>
+            Result: <span id="result"></span>
+        </h3>
+    </div>
+    </div>
+    <script
+        src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
